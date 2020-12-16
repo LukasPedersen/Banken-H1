@@ -10,10 +10,19 @@ namespace Bank2
     {
         string navn;
         double saldo;
-        public Konto(string _navn)
+        int kontoNummer;
+        public Konto(string _navn, int _kontoNummer)
         {
             navn = _navn;
             saldo = 0;
+            kontoNummer = _kontoNummer;
+        }
+        public int KuntoNummer
+        {
+            get
+            {
+                return kontoNummer;
+            }
         }
         public string Navn
         {
