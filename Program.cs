@@ -10,7 +10,7 @@ namespace Bank2
     {
         static void Main(string[] args)
         {
-            Bank minBank = new Bank("EUC Syd", 49413);
+            Bank minBank = new Bank("EUC Syd", 41413);
             string bank = minBank.Status();
             string title;
             Console.WriteLine("ffsafsafsafsa");
